@@ -25,7 +25,7 @@
 }
 
 .contacto, .habilidades, .idiomas, .hobbies, .titulo, .datosPersonales,
-.objetivos, .experiencia, .estudios, .proyectos {
+.objetivos, .experiencia, .educacion, .proyectos {
     margin-left: 20px;
     margin: 20px;
     transition: 0.5s;
