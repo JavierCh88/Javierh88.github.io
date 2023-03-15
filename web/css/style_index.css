@@ -1,0 +1,63 @@
+/* Write CSS Here */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.bod {
+    background-image: url('../media/fondo2.jpg');
+    background-attachment: fixed;
+    background-position: initial;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-image 0.5s ease-in-out;
+}
+.full {
+    width: 80%;
+    max-width: 1000px;
+    min-height: 100px;
+    color: rgb(0, 0, 0);
+    margin: 0px;
+    
+}
+
+.contacto, .habilidades, .idiomas, .hobbies, .titulo, .datosPersonales,
+.objetivos, .experiencia, .estudios, .proyectos {
+    margin-left: 20px;
+    margin: 20px;
+    transition: 0.5s;
+}
+
+#foto{
+    float: right;
+    display: flex;
+    height: 100px;
+    width: 100px;
+    margin-right: 3%;
+    margin-top: 15px;
+}
+
+.nombre, .titulo{
+    font-size: 25px;
+    color: black;
+    margin-left: 20px;
+}
+
+hr{
+    border-color: black;
+}
+.proyecto1, .proyecto2 {
+    margin-bottom: 15px;
+}
+h2 {
+    font-family: 'Raleway', sans-serif;
+    color: #0835af;
+}
+
+ul{
+    margin-left: 15px;
+}
+

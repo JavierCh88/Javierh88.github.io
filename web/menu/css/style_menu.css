@@ -1,0 +1,19 @@
+#menu {
+    transform: translateX(0%);
+    top: 8%;
+    position: fixed;
+    display: none;
+    left: 1.5%;
+}
+
+#menu-button{
+    width: 5%;   
+    transition: 0.5s;
+    position: fixed;
+}
+#sidebar{
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+
